@@ -1,4 +1,4 @@
-default['go']['version'] = '1.3.3'
+default['go']['version'] = '1.4'
 default['go']['platform'] = 'amd64'
 default['go']['filename'] = "go#{node['go']['version']}.#{node['os']}-#{node['go']['platform']}.tar.gz"
 default['go']['url'] = "https://storage.googleapis.com/golang/#{node['go']['filename']}"
